@@ -18,7 +18,7 @@ $ git clone url 	将指定url的仓库克隆到本地
 
 $ git pull url/ssh	将远程仓库更新到本地
 
-
+$ git remote rm origin 删除远程仓库
 分支:
 $ git branch		查看分支
 $ git branch 分支名	创建分支

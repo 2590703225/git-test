@@ -4,12 +4,16 @@ $ git config --global user.email “github@xx.com”
 $ git config --list //可以查看自己的配置
 $ git status //可以查看当前状态
 
-2.git add 添加到暂存区域
+2.生成ssh秘钥
+$ ssh-keygen -t rsa -c
+在C/用户/.ssh下找到 id_rsa.pub 复制粘贴至github/gitee
+
+3.git add 添加到暂存区域
 $ git add . 暂存全部
 $ git add xxx 暂存指定文件夹/文件
 
-3.git commit 提交到本地仓库
+4.git commit 提交到本地仓库
 $ git commit -m "备注" 如果没有备注会报错
 
-4.git push 推送至远程仓库
+5.git push 推送至远程仓库
 $ git push SSH/url 推送至远程gitee/github的SSH/url指定仓库
