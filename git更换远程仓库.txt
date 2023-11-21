@@ -1,0 +1,4 @@
+1.删除现有的远程仓库
+$ git remote rm origin
+2.新增仓库
+$ git remote add origin url/ssh
