@@ -1,0 +1,38 @@
+# git test
+
+#### 介绍
+测试git和学习git
+
+#### 使用说明
+
+$ git log		commit提交日志，按q退出
+
+$ git reflog 		更全的commit提交日志(含回退版本)
+
+$ git status		查看当前文件状态(例如修改文件或添加文件)
+
+$ git add		提交到暂存区域
+
+$ git commit -m "xxx"	和日志一起提交到本地仓库
+
+$ git push ssh/url	提交到远程仓库
+
+$ git reset --hard xxx	转到指定版本号
+
+$ git remote add origin ssh 绑定指定仓库以便日后git push origin master
+
+$ git clone url 	将指定url的仓库克隆到本地
+
+$ git pull url/ssh	将远程仓库更新到本地
+
+
+分支:
+$ git branch		查看分支
+$ git branch 分支名	创建分支
+$ git checkout 分支名	切换分支
+$ git merge 分支名	合并某分支到当前分支
+$ git branch -d b1 	删除分支，需要做各种检查
+$ git branch -D b1 	删除分支，强制删除
+
+其他:
+git rm -r -f --cached :文件名	文件添加并推送到了远端仓库,后期删掉要忽略的文件或文件夹

@@ -1,0 +1,15 @@
+1.配置全局usr.name,和user.email
+$ git config --global user.name “github’s Name”
+$ git config --global user.email “github@xx.com”
+$ git config --list //可以查看自己的配置
+$ git status //可以查看当前状态
+
+2.git add 添加到暂存区域
+$ git add . 暂存全部
+$ git add xxx 暂存指定文件夹/文件
+
+3.git commit 提交到本地仓库
+$ git commit -m "备注" 如果没有备注会报错
+
+4.git push 推送至远程仓库
+$ git push SSH/url 推送至远程gitee/github的SSH/url指定仓库
